@@ -1,0 +1,139 @@
+*{
+    background-color: rgb(232, 234, 236);
+
+}
+
+
+h1{
+    color: rgb(189, 90, 172);
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.Desarrollo{
+    background-color: rgb(255, 255, 255);;
+    width: 400px;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-left: 300px;
+    box-shadow: 1px 1px 6px hotpink;
+
+    
+    
+    
+}
+
+.Creacion{
+    border-color: violet;
+    background-color:rgb(255, 255, 255);
+    width: 400px;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-top: 250px;
+    box-shadow: 1px 1px 6px hotpink;
+    
+
+
+}
+
+.contenedores{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.Diseño{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 500px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-right: 300px;
+    box-shadow: 1px 1px 6px hotpink;
+}
+
+hr{
+    height: 1px;
+    background-color:hotpink;
+    width: 1280px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.final{
+    color:violet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    background-color:rgb(255, 255, 255); 
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h3{
+   background-color: rgb(255, 255, 255);
+   font-size: 25px;
+   font-family: Arial, Helvetica, sans-serif;
+   display: flex;
+   justify-content: center;
+}
+
+img{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:352px) {
+
+    .contenedores{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    hr{
+        width: 100%;
+    }
+
+    .Desarrollo{
+        margin-left: 0;
+        padding-left: 3px;
+        padding-right: 3px;
+        width: 96%;
+        
+        
+    }
+
+    .Creacion{
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .Diseño{
+        width: 90%;
+        margin-top: 10%;
+    }
+
+    .contenedores{
+        gap: 2px;
+    }
+
+    img{
+        width: 60%;
+       
+    }
+    
+}
